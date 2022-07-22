@@ -1,0 +1,20 @@
+﻿  List Debug.cpp
+D:\List Debug\List Debug\List.h(37,23): warning C4244: “return”: 从“double”转换到“size_t”，可能丢失数据
+D:\List Debug\List Debug\List.h(29): message : 在编译 类 模板 成员函数“size_t EscapistPrivate::ListCore<Type>::CalculateCapacity(size_t)”时
+          with
+          [
+              Type=char
+          ]
+D:\List Debug\List Debug\List.h(372): message : 查看对正在编译的函数 模板 实例化“size_t EscapistPrivate::ListCore<Type>::CalculateCapacity(size_t)”的引用
+          with
+          [
+              Type=char
+          ]
+D:\List Debug\List Debug\List.h(442): message : 查看对正在编译的 类 模板 实例化“EscapistPrivate::ListCore<Type>”的引用
+          with
+          [
+              Type=char
+          ]
+D:\List Debug\List Debug\List Debug.cpp(16): message : 查看对正在编译的 类 模板 实例化“List<char>”的引用
+D:\List Debug\List Debug\ReferenceCount.h(19): warning C4172: 返回局部变量或临时变量的地址
+  List Debug.vcxproj -> D:\List Debug\x64\Debug\List Debug.exe
